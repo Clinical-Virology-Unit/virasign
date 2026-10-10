@@ -27,7 +27,7 @@ conda activate virasign
 
 ### Option 2: From Source Code
 ```bash
-conda create -n virasign python=3.9 -y
+conda create -n virasign python=3.9 pip -y
 conda activate virasign
 conda install -c conda-forge -c bioconda minimap2=2.24 seqtk=1.3 curl "samtools>=1.17" mmseqs2=15.6f452 nextclade -y
 git clone https://github.com/DaanJansen94/virasign.git
